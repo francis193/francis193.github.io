@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: gainsboro;
+    position: fixed;
+    overflow: auto;
+    border: 1px solid #555;
+    margin-left: 100px;
+  }
+  
+  li {
+    text-align: center;
+    border: 1px solid #555;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+  
+  li a.activo {
+    background-color: red;
+    color: white;
+  }
+  
+  li a:hover:not(.activo) {
+    background-color: #555;
+    color: white;
+  }
+  
+  body {
+    background-image: url("img/spawn-deadpool-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  h1 {
+    color: white;
+  }

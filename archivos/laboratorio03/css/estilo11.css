@@ -1,0 +1,70 @@
+/* los vinvulos presentan varios estados dentro de los cuales tenemos */
+/* link: el vinculo normal   */
+/* visited: cuando le ha sido visitado  */
+/* hover: mouse esta sobre el vinculo   */
+/* active: le das click  */
+
+/* aplicamos colores en los estados de vinculo */
+a.vinvulo1:link {
+  color: chartreuse;
+}
+
+a.vinvulo1:visited {
+  color: coral;
+}
+
+a.vinvulo1:hover {
+  color: darkmagenta;
+}
+
+a.vinvulo1:active {
+  color: darkturquoise;
+}
+
+/* quitamos la decoracion de texto */
+a.vinvulo2:link {
+  color: darkturquoise;
+}
+
+a.vinvulo2:visited {
+  text-decoration: none;
+}
+
+a.vinvulo2:hover {
+  text-decoration: none;
+}
+
+a.vinvulo2:active {
+  text-decoration: none;
+}
+
+/* generamos un estilo para que el vinvulo parezca un boton */
+a.vinculo3.link,
+a.vinculo3.visited {
+  background-color: green;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.vinculo3:hover,
+a.vinvulo3:active {
+  background-color: red;
+}
+
+/* generamos un estilo para que el vinculo parezca un boton */
+a.vinculo4:link,
+a.vinculo4.visited {
+  background-color: royalblue;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a.vinculo4:hover,
+a.vinculo4:active {
+  background-color: black;
+}

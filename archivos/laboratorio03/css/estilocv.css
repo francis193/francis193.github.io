@@ -1,0 +1,39 @@
+.principal {
+  border: solid ipx black;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.contenedor {
+  background-color: black;
+}
+
+legend {
+  border: solid 1px violet;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 20px;
+  background: lightskyblue;
+  font-family: initial;
+  font-size: 40px;
+}
+
+.titulo1 {
+  font-family: "Indie Flower", cursive;
+}
+.misdatosgenerales {
+  font-family: "Indie Flower", cursive;
+}
+.estudiosrealizados {
+  font-family: "Indie Flower", cursive;
+}
+.idiomasdominados {
+  font-family: "Indie Flower", cursive;
+}
+.image {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  border-radius: 40px;
+  border: solid 1px gold;
+}

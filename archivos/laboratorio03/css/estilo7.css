@@ -1,0 +1,105 @@
+* {
+  padding: 10px;
+}
+
+body {
+  background-color: coral;
+}
+
+.contenedor {
+  background-color: whitesmoke;
+}
+
+/* agregamos color en el texto de parrafo */
+.parrafocolor {
+  color: yellowgreen;
+}
+
+/* alineamos el parrafo  */
+.parrafoderecha {
+  text-align: right;
+}
+
+.parrafocentro {
+  text-align: center;
+}
+
+.parrafoizquierda {
+  text-align: left;
+}
+
+.parrafojustificado {
+  text-align: justify;
+}
+
+.parrafosuperior {
+  vertical-align: top;
+}
+
+.parrafomedio {
+  vertical-align: middle;
+}
+
+.parrafoinferior {
+  vertical-align: bottom;
+}
+
+/* agregamos decoraciones al texto */
+.parrafosobrelinea {
+  text-decoration: overline;
+}
+
+.parrafosubrayado {
+  text-decoration: underline;
+}
+
+.parrafotachado {
+  text-decoration: line-through;
+}
+
+/* agregamos transformaciones de texto del parrafo */
+.parrafomayuscula {
+  text-transform: uppercase;
+}
+
+.parrafominiscula {
+  text-transform: lowercase;
+}
+
+.parrafonombrepropio {
+  text-transform: capitalize;
+}
+
+/* agregamos espacio los textos del parrafo */
+.parrafosangria {
+  text-indent: 80px;
+}
+
+.parrafoespacioletracomprimido {
+  letter-spacing: -2px;
+}
+
+.parrafoespaciolinea {
+  line-height: 7px;
+}
+
+.parrafoespaciolineaamplio {
+  line-height: 7px;
+}
+
+.parrafolineaespacioletra {
+  word-spacing: 15px;
+}
+
+.parrafoespacioletracomprimido {
+  word-spacing: -2px;
+}
+
+/* agregamos sombra al texto del parrrafo */
+.parrafosombra {
+  text-shadow: 2px 3px orange;
+}
+
+.parrafosombradifuminado {
+  text-shadow: 2px 3px 5px red;
+}
