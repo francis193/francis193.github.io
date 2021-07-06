@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fire base - parte 1</title>
+    <link rel="stylesheet" type="text/css" href="css/pag1.css">
+    <script src="js/MAB.js"></script>
 </head>
 <body>
     <!-- Firebase
@@ -41,20 +43,29 @@
     para guardar e intercambiar informacion que cualquier persona pueda leer. sus 
     archivos se guardan con extension  .JSON -->
 
+    <div class="registrodedatos">
+    <center>
+    <fieldset>
     <form action="">
-        <h1>Registro de datos</h1>
-        <label for="txtNom">Nombres:</label>
+        <h1 style="color: white;font-size: 70px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Registro de datos</h1>
+        <label for="txtNom" style="color: moccasin; font-size: 22px;">Nombres:</label>
         <input type="text" id="textNom" name="textNom"  placeholder="Ingrese su nombre">
         <br>
-        <label for="txtApe">Apellidos</label>
+        <label for="txtApe" style="color: moccasin; font-size: 22px;">Apellidos</label>
         <input type="text" id="textApe" name="textApe" placeholder="Ingrese su apellido">
 
         <br>
-        <label for="txtcor">Correo:</label>
+        <label for="txtcor" style="color: moccasin; font-size: 22px;">Correo:</label>
         <input type="text" id="txtcor" name="txtcor" placeholder="Ingrese su correo">
+        <br>
+        <label for="txtcon" style="color: moccasin; font-size: 22px;">Contraseña:</label>
+        <input type="text" id="txtcon" name="txtcon" placeholder="Ingrese su contraseña">
         <br>
         <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
     </form>
+    </fieldset>
+    </center>
+</div>
     <hr>
     <table id="tbRegistro">
         <thead>
@@ -66,5 +77,6 @@
 
     <script src="js/registro.js" type="text/javascript"></script>
     <script src="js/bibliotecaregistro.js" type="text/javascript"></script>
+
 </body>
 </html>

@@ -6,17 +6,17 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 15%;
+  width: 25%;
   background-color: gainsboro;
   position: fixed;
   overflow: auto;
-  border: 1px solid #555;
-  margin-left: 400px;
+  border: 1px solid black;
+  margin-left: 300px;
 }
 
 li {
   text-align: center;
-  border: 1px solid #555;
+  border: 1px solid black;
 }
 
 li a {
@@ -37,10 +37,11 @@ li a:hover:not(.activo) {
 }
 
 body {
-  background-image: url("/img/prototype-background.jpg");
+  background-image: url("/francis193.github.io/img/prototype-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 h1 {
   color: white;
+  padding-left: 10px;
 }

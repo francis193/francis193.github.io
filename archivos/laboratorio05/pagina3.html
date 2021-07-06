@@ -1,50 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>firebase - parte 1</title>
-    
+    <link rel="stylesheet" type="text/css" href="css/pag3.css">
+    <script src="js/alumnobiblioteca.js"></script>
+
 </head>
+
 <body>
-    <form action="">
-        <label for="txtNom">Nombres:</label>
-        <input type="text" name="txtNom" id="txtNom"><br>
-        <label for="txtApe">Apellidos:</label>
-        <input type="text" name="txtApe" id="txtApe"><br>
-        <label for="txtDni">Dni:</label>
-        <input type="text" name="txtDni" id="txtDni"><br>
-        <label for="cboCurso">Curso:</label>
-        <select name="cboCurso" id="cboCurso">
-            <option value="0">Selecciona una opcion</option>
-            <option value="1">Selecciona una opcion</option>
-            <option value="2">Selecciona una opcion</option>
-            <option value="3">Selecciona una opcion</option>
-        </select>
-        <label for="">turno:</label>
-        <input type="radio" name="turno" id="rbM"><label for="rbM">Mañana</label>
-        <input type="radio" name="turno" id="rbM"><label for="rbM">Tarde</label>
-        <input type="radio" name="turno" id="rbM"><label for="rbM">Noche
-        <br>
-        <label for="">Estado:</label>
-        <input type="checkbox" name="chEst" id="chkEst">
-        <label for="chkEst">Habilitado</label>
-        <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
-        <input type="reset" value="Limpiar" name="btnLimpiar" id="btnLimpiar">
-        </label>
-    </form>
+    <div class="firebase2">
+        <center>
+            <fieldset>
+                <form action="">
+                    <label for="txtNom"
+                        style="color:white; font-size: 25px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Nombres:</label>
+                    <input type="text" name="txtNom" id="txtNom"><br>
+                    <label for="txtApe"
+                        style="color: white; font-size: 25px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Apellidos:</label>
+                    <input type="text" name="txtApe" id="txtApe"><br>
+                    <label for="txtDni"
+                        style="color: white; font-size: 25px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Dni:</label>
+                    <input type="text" name="txtDni" id="txtDni"><br>
+                    <label for="cboCurso"
+                        style="color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 25px;">Curso:</label>
+                    <select name="cboCurso" id="cboCurso">
+                        <option value="0">Selecciona una opcion</option>
+                        <option value="1">Diseño Web</option>
+                        <option value="2">Base de Datos</option>
+                        <option value="3">Programacion Javascript</option>
+                    </select>
+                    <label for="" style="color: white; font-size: 25px;">turno:</label>
+                    <input type="radio" name="turno" id="rbM" value="Mañana"><label for="rbM"
+                        style="color: white;">Mañana</label>
+                    <input type="radio" name="turno" id="rbM" value="Tarde"><label for="rbM"
+                        style="color: white;">Tarde</label>
+                    <input type="radio" name="turno" id="rbM" value="Noche"><label for="rbM" style="color: white;">Noche
+                        <br>
+                        <label for="">Estado:</label>
+                        <input type="checkbox" name="chEst" id="chkEst">
+                        <label for="chkEst">Habilitado</label>
+                        <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
+                        <input type="reset" value="Limpiar" name="btnLimpiar" id="btnLimpiar">
+                    </label>
+                </form>
+        </center>
+        </fieldset>
+    </div>
     <hr>
     <table id="tbAlumno">
         <thead>
-            <th>Nombres</th>
+            <th>Nombres </th>
+            <br>
             <th>Apellidos</th>
             <th>Dni</th>
             <th>Curso</th>
             <th>Turno</th>
             <th>Estado</th>
         </thead>
-            <tbody></tbody>
+        <tbody></tbody>
+        
     </table>
 </body>
+
 </html>

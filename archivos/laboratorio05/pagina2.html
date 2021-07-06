@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fire base - parte 1</title>
+    <link rel="stylesheet" type="text/css" href="css/pag2.css">
+    <script src="js/bibliotecaproductos.js"></script>
 </head>
 <body>
+    <div class="firebase">
+    <center>
+    <fieldset>
     <form action="">
-        <label form="txtNom">Nombre del producto:</label>
+        <label form="txtNom" style="color: red; font-size: x-large;">Nombre del producto:</label>
         <input type="text" name="txtNom" id="txtNom" placeholder="Nombre del producto">
         <br>
-        <label for="txtPre">Precio del producto</label>
+        <label for="txtPre" style="color: red; font-size: x-large;">Precio del producto</label>
         <input type="number" name="txtPre" id="txtPre">
         <br>
-        <label for="">Categoria</label>
+        <label for="" style="color: red; font-size: x-large;">Categoria</label>
         <select name="cboCategoria" id="cboCategoria">
             <option value="0">Seleccione una categoria</option>
             <option value="0">Entrenamiento</option>
@@ -22,10 +27,16 @@
             <option value="0">Linea Blanca</option>
         </select>
         <br>
-        <label for="txtCan">Cantidad</label>
+        <label for="txtCan" style="color: red; font-size: x-large;">Cantidad</label>
         <input type="number" name="txtCan" id="txtCan">
         <br>
-        <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar"> 
+        
+        <input type="button" value="Registrar" id="btnRegistrar" name="btnRegistrar">
+        
+        
     </form>
+    </center>
+    </fieldset>
+    </div>
 </body>
 </html>

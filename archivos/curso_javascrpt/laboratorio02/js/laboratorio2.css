@@ -4,10 +4,10 @@ body {
   
   ul {
     list-style-type: none;
-    margin: 0;
+    margin: -40px;
     padding: 0;
     width: 15%;
-    background-color: gainsboro;
+    background-color: mediumturquoise;
     position: fixed;
     overflow: auto;
     border: 1px solid #555;
@@ -27,20 +27,24 @@ body {
   }
   
   li a.activo {
-    background-color: red;
+    background-color: black;
     color: white;
   }
-  
+  li a.activo2 {
+    background-color: black;
+    color: white;
+  }
   li a:hover:not(.activo) {
-    background-color: #555;
+    background-color: purple;
     color: white;
   }
   
   body {
-    background-image: url("/img/ncMXv8.jpg");
+    background-image: url("/francis193.github.io/img/valve-explains-why-half-life-2-episode-3-was-never-made_feqq.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
   }
   h1 {
     color: white;
+    padding-left: 100px;
   }

@@ -13,7 +13,7 @@ legend {
   padding: 5px;
   font-weight: bold;
   border-radius: 20px;
-  background: lightskyblue;
+  background: red;
   font-family: initial;
   font-size: 40px;
 }
@@ -36,4 +36,8 @@ legend {
   background-position: center;
   border-radius: 40px;
   border: solid 1px gold;
+}
+
+.principal{
+  background-color: goldenrod;
 }

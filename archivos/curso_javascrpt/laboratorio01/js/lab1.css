@@ -4,19 +4,19 @@ body {
   
   ul {
     list-style-type: none;
-    margin: 233px;
+    margin: -40px;
     padding: 0;
-    width: 20%;
-    background-color: white;
+    width: 25%;
+    background-color: mediumturquoise;
     position: fixed;
     overflow: auto;
-    border: 1px solid #555;
-    margin-left: 700px;
+    border: 1px solid black;
+    margin-left: 300px;
   }
   
   li {
     text-align: center;
-    border: 1px solid #555;
+    border: 1px solid black;
   }
   
   li a {
@@ -27,25 +27,25 @@ body {
   }
   
   li a.activo {
-    background-color: red;
+    background-color: black;
     color: white;
   }
   li a.activo2 {
-    background-color: red;
+    background-color: black;
     color: white;
   }
   
   li a:hover:not(.activo) {
-    background-color: #555;
+    background-color:purple;
     color: white;
   }
   
   body {
-    background-image: url("/francis193.github.io/img/ncMXv8.jpg");
+    background-image: url("/francis193.github.io/img/prototype-background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
   }
   h1 {
     color: white;
-    padding-left: 30px;
+    padding-left: 375px;
   }

@@ -5,13 +5,13 @@ body {
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     width: 15%;
-    background-color: gainsboro;
+    background-color: moccasin;
     position: fixed;
     overflow: auto;
     border: 1px solid #555;
-    margin-left: 100px;
+    margin-left: 680px;
   }
   
   li {
@@ -27,8 +27,11 @@ body {
   }
   
   li a.activo {
-    background-color: red;
+    background-color: black;
     color: white;
+  }
+  li a.activo2{
+    background-color: black;
   }
   
   li a:hover:not(.activo) {
@@ -37,7 +40,7 @@ body {
   }
   
   body {
-    background-image: url("/img/laboratorio\ 1.jpg");
+    background-image: url("/francis193.github.io/img/laboratorio\ 1.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
   }
