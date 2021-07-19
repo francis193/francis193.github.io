@@ -45,3 +45,21 @@ h1 {
   color: white;
   padding-left: 10px;
 }
+
+
+
+.terno{
+  background-repeat: no-repeat;
+  margin-left: 340px;
+  margin-top: -180px;
+}
+
+.terno h2{
+  margin-left: 78px;
+  margin-top:-70px;
+}
+
+.difinitivo{
+  margin-left: 750px;
+  margin-top: 200px;
+}
