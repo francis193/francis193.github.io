@@ -1,18 +1,18 @@
 //creamos un vector para el producto
-var registro=[];
+var producto=[];
 //creamos un procedimiento para registrar
-//catgoria se va a registrar de un Combobox -> select
-//catgoria: entretenimiento, tecnologia, Linea Blanca
-function Registrar(nomproducto, preproducto, catproducto, canproducto) {
+//catgoria se va a registrar de un combobox -> select
+//catgoria: entretenimiento, tecnologia, linea blanca
+function Registrar(nomproducto,preproducto,catproducto,canproducto){
     var NuevoProducto={
         nombre:nomproducto,
         precio:preproducto,
-        catgoria:catproducto,
-        cantidad:canproducto,
+        categoria:catproducto,
+        cantidad:canproducto
     };
     registro.push(NuevoProducto);
 }
 //creamos una funcion para obtener los valores del registro
-function Mostrar() {
+function Mostrar(){
     return producto;
 }

@@ -1,15 +1,15 @@
 //creamos un vector que contenga la informacion 
 var registro=[];
 //creamos un procedimiento para registrar
-function Registrar(nombreregistro,apellidoregistro,correoregistro) {
+function Registrar(nombreregistro,apellidoregistro,correoregistro){
     var NuevoRegistro={
         nombre:nombreregistro,
         apellido:apellidoregistro,
-        correo:correoregistro,
+        correo:correoregistro
     };
     registro.push(NuevoRegistro);
 }
 //creamos una funcion para obtener los valores del registro
-function Mostrar() {
+function Mostrar(){
     return registro;
 }

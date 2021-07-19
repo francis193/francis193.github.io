@@ -2,17 +2,19 @@
 var txtNom=document.getElementById("txtNom");
 var txtApe=document.getElementById("txtApe");
 var txtCor=document.getElementById("txtCor");
-var btnRegistrar=document.getElementById("btnRegistrar");
+var btnRegistro=document.getElementById("btnRegistrar");
 
 //creamos un procedimiento para mostrar
-function MostrarRegistro() {
+function MostrarRegistro(){
 //declaramos una variable para mostrarguardar datos
 var listaregistro=Mostrar();
 //selecciono el tbody de la tabla donde voy a guardar
 tbody=document.querySelector("#tbRegistro tbody");
 tbody.innerHTML="";
-//agregamos columnas que se rgistren
-}for(var i=0; i<listasregistro.length;i++){
+
+    //agregamos columnas que se rgistren
+}   for(var i=0; i<listaregistro.length;i++){
+
     //declaramos una variable para la fila 
     var fila=tbody.insertRow(i);
     //declaramos variables para los titulos
@@ -26,9 +28,10 @@ tbody.innerHTML="";
     tbody.appendchild(fila); 
 }
 
-{
+
+
     //creamos un procedimiento para registrar loas datos
-    function RegistrarDatos() {
+    function RegistrarDatos(){
         //capturando valores 
         var nom=txtNom.value;
         var ape=txtApe.value;
@@ -37,7 +40,7 @@ tbody.innerHTML="";
         Registrar(nom,ape,cor);
         MostrarRegistro();
     }
-}
+
 
 //agregamos un evento al boton
 // btnRegistrar.addEventListener("click",function(){
@@ -48,13 +51,7 @@ tbody.innerHTML="";
 //    alert("hola");
 //}
 //agregamos el evento al boton
-//btnRegistrar.addEvenListener("click",RegistrarDatos);
+//btnRegistrar.addEventListener("click",RegistrarDatos);
 
-
-
-
-
-
-
-
-
+//asignamos la fuuncion registrar datos  1 boton
+btnRegistrar.addEventListener("click", RegistrarDatos);
